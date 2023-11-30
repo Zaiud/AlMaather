@@ -1,0 +1,21 @@
+﻿<Window x:Class="AlMaather.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlMaather"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Foreground="#FFF9F1F1" WindowStyle="None">
+    <Window.OpacityMask>
+        <SolidColorBrush Color="#FFEDE6E6" Opacity="0.5"/>
+    </Window.OpacityMask>
+    <Window.Background>
+        <ImageBrush ImageSource="/39442710_274112183192878_1177830008526209024_n.jpg" Opacity="0.5"/>
+    </Window.Background>
+    <Grid>
+        <TextBox Text="اسم المستخدم" Background="White" Margin="409,131,103,278" FlowDirection="RightToLeft" />
+        <TextBox Text="كلمة المرور" Background="White" Margin="409,203,103,208" FlowDirection="RightToLeft" />
+        <Button Content="تسجيل الدخول" Height="50" Width="130" Margin="567,275,103,125" Click="Button_Click"/>
+        <Button Content="حروج" Height="50" Width="130" Margin="414,275,256,125"/>
+    </Grid>
+</Window>

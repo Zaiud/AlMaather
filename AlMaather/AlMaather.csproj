@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="39442710_274112183192878_1177830008526209024_n.jpg" />
+    <None Remove="Button-Log-Off-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="39442710_274112183192878_1177830008526209024_n.jpg" />
+    <Resource Include="Button-Log-Off-icon.png" />
+  </ItemGroup>
+
+</Project>
